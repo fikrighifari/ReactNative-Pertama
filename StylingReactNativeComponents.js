@@ -4,9 +4,10 @@ import wine from './wine.jpeg';
 
 const StylingReactNativeComponents = () => {
   return (
+    
     <View>
       <Text style={styles.text}>Styling Component</Text>
-      <View
+      {/* <View
         style={{
           width: 100,
           height: 100,
@@ -16,7 +17,7 @@ const StylingReactNativeComponents = () => {
           marginTop: 20,
           marginLeft: 20,
         }}
-      />
+      /> */}
       <View
         style={{
           width: 212,
