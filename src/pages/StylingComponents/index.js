@@ -4,8 +4,7 @@ import wine from '../../assets/wine.jpeg';
 
 const StylingComponents = () => {
   return (
-    
-    <View>
+    <View style={{justifyContent: 'center', alignItems: 'center'}}>
       <Text style={styles.text}>Styling Component</Text>
       {/* <View
         style={{
@@ -56,7 +55,7 @@ const StylingComponents = () => {
             fontSize: 12,
             fontWeight: '600',
           }}>
-          Jakarta Selatan
+          Jakarta Timur
         </Text>
 
         <View
@@ -90,6 +89,5 @@ const styles = StyleSheet.create({
     marginTop: 40,
   },
 });
-
 
 export default StylingComponents;
