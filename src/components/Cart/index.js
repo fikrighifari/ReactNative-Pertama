@@ -1,26 +1,23 @@
 import React from 'react';
 import {StyleSheet, Text, View, Image} from 'react-native';
-import cart from './order.png';
+import cart from '../../assets/order.png';
 
-const PositionReactNative = () => {
+const Cart = (props) => {
   return (
-    <View style={styles.wrapper}>
+    <View>
       <View style={styles.cartWrapper}>
         <Image source={cart} style={styles.iconCart} />
-        <Text style={styles.textNotif}>66</Text>
+        <Text style={styles.textNotif}>{props.quantity}</Text>
       </View>
-      <Text style={styles.text}>Keranjang Belanja Anda</Text>
+      <Text style={styles.text}>Keranjang Belanja Anda!</Text>
     </View>
   );
 };
 
-export default PositionReactNative;
+export default Cart;
 
 const styles = StyleSheet.create({
-  wrapper: {
-    padding: 20,
-    alignItems: 'center'
-  },
+  
   cartWrapper: {
     borderColor: 'black',
     borderWidth: 1,
@@ -29,7 +26,8 @@ const styles = StyleSheet.create({
     height: 93,
     justifyContent: 'center',
     alignItems: 'center',
-    position:'relative',
+    position: 'relative',
+    marginTop: 20
   },
   iconCart: {
     width: 50,
@@ -41,15 +39,15 @@ const styles = StyleSheet.create({
     marginTop: 8,
   },
   textNotif: {
-    fontSize:12,
+    fontSize: 12,
     color: 'white',
     backgroundColor: '#FFC700',
-    padding:5,
-    borderRadius:25,
-    width:24,
-    height:24,
+    padding: 5,
+    borderRadius: 25,
+    width: 24,
+    height: 24,
     position: 'absolute',
-    top:0,
-    right:5,
-  }
+    top: 0,
+    right: 5,
+  },
 });

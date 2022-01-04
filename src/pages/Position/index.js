@@ -9,7 +9,7 @@ const Position = () => {
         <Image source={cart} style={styles.iconCart} />
         <Text style={styles.textNotif}>66</Text>
       </View>
-      <Text style={styles.text}>Keranjang Belanja Anda</Text>
+      <Text style={styles.text}>Keranjang Belanja Anda!</Text>
     </View>
   );
 };

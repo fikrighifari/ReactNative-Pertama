@@ -26,6 +26,7 @@ class FlexBox extends Component {
           <Text>Search</Text>
           <Text>Your Library</Text>
           <Text>Liked Song</Text>
+          <Text>Profile</Text>
         </View>
         <View style={{flexDirection: 'row',marginTop:20}}>
           <Image

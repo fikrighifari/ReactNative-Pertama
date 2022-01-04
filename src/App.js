@@ -1,5 +1,6 @@
 import React from 'react';
 import {ScrollView, View} from 'react-native';
+import Communication from './pages/Communication';
 import DynamicState from './pages/DynamicState';
 import FlexBox from './pages/FlexBox';
 import Position from './pages/Position';
@@ -18,7 +19,8 @@ const App = () => {
         {/* <Position/> */}
         {/* <StylingComponents/> */}
         {/* <PropsDinamis/> */}
-        <DynamicState/>
+        {/* <DynamicState/> */}
+        <Communication/>
       </ScrollView>
       
     </View>

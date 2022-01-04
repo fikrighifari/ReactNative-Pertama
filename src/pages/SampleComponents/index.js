@@ -3,7 +3,7 @@ import {View, Text, TextInput, Image,} from 'react-native';
 
 const SampleComponents = () => {
   return (
-    <View>
+    <View >
       <View style={{width: 50, height: 50, backgroundColor: '#3498db'}} />
       <Text>Fikri</Text>
       <Text>Akbar</Text>
@@ -23,9 +23,9 @@ const Photo = () => {
   return (
     <Image
       source={{
-        uri: 'https://images.pexels.com/photos/2456348/pexels-photo-2456348.jpeg?cs=srgb&dl=pexels-dids-2456348.jpg&fm=jpg',
+        uri: 'https://images.pexels.com/photos/5686480/pexels-photo-5686480.jpeg?cs=srgb&dl=pexels-olenka-sergienko-5686480.jpg&fm=jpg',
       }}
-      style={{width: 100, height: 100}}
+      style={{width: 240, height: 260}}
     />
   );
 };

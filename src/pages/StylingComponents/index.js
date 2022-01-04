@@ -38,7 +38,7 @@ const StylingComponents = () => {
             fontSize: 16,
             fontWeight: 'bold',
           }}>
-          Kukubima Energi
+          Kukubima Energi, Oke!
         </Text>
 
         <Text
